@@ -1,2 +1,2 @@
-heroku ps:scale web=1
+heroku ps:scale web=1 --app streamlit-webscraping
 web: sh setup.sh && streamlit run webscraping.py
